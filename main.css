@@ -364,3 +364,25 @@ color: white;
   @media screen and (min-width:768px) {
     
   }
+
+  .header {
+    color: #ceaf91;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #ceaf91;
+}
+
+.btn btn-primary btn-lg {
+
+  color: #ceaf91;
+}
+
+.text-center header {
+
+margin-top: 20px;  
+
+}

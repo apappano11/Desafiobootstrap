@@ -13,57 +13,61 @@
     <h2>Contactate con nosotros</h2>
 </header>
 <main>
-    
-   <h2>Tipo de comentario</h2>
-    
-    <div class="contactanos">
-        <div class="container">
-            
-            <div class="row align-items-center">
-              <div class="col">
-                <p>Consulta </p>
-                <input type="radio" name="tipo de consulta" value="Consulta">
-              </div>
-              <div class="col">
-                <p>Reclamo </p>
-                <input type="radio" name="tipo de consulta" value="Reclamo">
-              </div>
-              <div class="col">
-                <p>Sugerencia</p>
-<input type="radio" name="tipo de consulta" value="Sugerencia">
-              </div>
+  
+  <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="well well-sm">
+                <form class="form-horizontal" method="post">
+                    <fieldset>
+                        <legend class="text-center header">Completá el formulario</legend>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="email" name="email" type="text" placeholder="Dirección de email" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                            <div class="col-md-8">
+                                <input id="phone" name="phone" type="text" placeholder="Teléfono" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                            <div class="col-md-8">
+                                <textarea class="form-control" id="message" name="message" placeholder="Dejanos tu mensaje. Te responderemos a la brevedad" rows="7"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
             </div>
-            
-          </div>
-
-   
-    
+        </div>
+    </div>
 </div>
-
-
-    <h3>Dejá tus datos</h3>
-
-    <div class="input-group">
-        <span class="input-group-text">Nombre y apellido</span>
-        <input type="text" aria-label="First name" class="form-control">
-       
-      </div>
-
-      <div class="input-group">
-        <span class="input-group-text">Correo electrónico</span>
-        <input type="text" aria-label="First name" class="form-control">
-        
-      </div>
-
-      <div class="input-group">
-        <span class="input-group-text">Teléfono</span>
-        <input type="text" aria-label="First name" class="form-control">
-       
-      </div>
-
-    <h3>Escribí a continuación</h3>
-    <textarea name="Comentario" id="" cols="30" rows="10"
-     placeholder="Comentario"></textarea>
+  
     </main>
 
     <footer class="footer-home">
